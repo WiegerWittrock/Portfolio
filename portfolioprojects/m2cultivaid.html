@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>M2: Cultivaid</title>
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+      <link href="../style.css" rel="stylesheet" type="text/css">
+      <link href="../style.css" rel="stylesheet" type="text/css"><script src="https://kit.fontawesome.com/cd89b63114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="header">
+        <div class="header-middle">
+        <a href="../index.html" class="homebutton">WIEGER</a>
+        </div>
+        <div class="header-left">
+       <a class="active" href="../portfolio.html"><i class="fas fa-grip-horizontal"></i> Portfolio</a>
+        </div>
+        <div class="header-right">
+          <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+
+        </div>
+      </div>
+
+      
+
+    <div class="backbutton">
+          <a href="../portfolio.html" class="backbutton1"><i ><img src="../img/leftarrow.png" alt="Top" class="footericonTop"></i></a>
+    </div>
+
+
+
+
+    <div class="blogtitle">
+    <h1>M2: Cultivaid</h1>
+    <address class="author">Teamwork, Processing, Arduino, Presenting, Writing</address>
+    <span class="blogdate">March 8th, 2022</span>
+    </div>
+
+    <div class="homepage">
+    <p>
+      For the project of module 2 we had to make a program that helps solving climate change or the problems caused by it. First we
+      had to find a lot of information about the topic. After that we chose a problem that we wanted o solve. We chose the problem
+      water waste in agriculture.
+      <br> <br>90% of all the usable water goes to agriculture, but 70% of this water is wasted! In the future there will be a big water shortage caused by
+      the climate change and the growing population, if we don't take actions now. Also food will become an issue when there is a water waste.
+      Since water and food are the most important things we need to live, we chose to find a solution for this problem.
+      <br> Our solution was to make a program that helps farmers optimize their water usage in an irrigation system. I made a Processing program
+      that reads the real-time weather forecast of its location. Using this information and using multiple sensors on the arduino like temperature and
+      humidity, we can calculate a suggested irrigation usage. In this way water is saved since most of the time an irrigation system is on or off, it
+      is not "smart", but now it can be smart.
+      <br> To test the program we connected it to plants and we used a soil-moisture sensor to know if the plant needs water. Then the program
+      will look at sensor values and the weather forcast and make a decision. For example, only use 60% irrigation today, since it is expected to rain
+      in the afternoon.
+
+</p>
+</div>
+<img class="nobackground" src="../img/cultivaidlogo.png" alt="Logo">
+
+
+  <img class="m1viscom" src="../img/cultivaid.png" alt="processing interface">
+
+
+
+  <div class="homepage">
+  <p>
+    I also made video explaining the program:
+  </p>
+  </div>
+
+  <video width="640" height="360" controls>
+  <source src="../img/cultivaidvideo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+
+<br><br>
+    <a onclick="topFunction()" id="backToTop" title="Go to top" class="footera"><img src="../img/uparrow.png" alt="Top" class="footericon"></a>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("backToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      window.scrollTo({top: 0, behavior: 'smooth'}); } </script>
+
+  </body>
+</html>
