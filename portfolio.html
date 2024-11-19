@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/cd89b63114.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+
+    <script>
+
+    // Store the current scroll position in a variable
+    window.addEventListener('beforeunload', function() {
+      localStorage.setItem('scrollPosition', window.scrollY);
+    });
+
+    // Restore the scroll position on page load
+    window.addEventListener('load', function() {
+      var scrollPosition = localStorage.getItem('scrollPosition');
+      if (scrollPosition !== null) {
+        window.scrollTo({
+          top: scrollPosition,
+          behavior: 'auto'
+        });
+        localStorage.removeItem('scrollPosition');
+      }
+    });
+  </script>
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-middle">
+      <a href="index.html" class="homebutton">WIEGER</a>
+      </div>
+      <div class="header-left">
+     <a  class="active" href="portfolio.html"><i class="fas fa-grip-horizontal"></i> Portfolio</a>
+      </div>
+      <div class="header-right">
+        <a  href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+      </div>
+    </div>
+
+    <h1>Portfolio</h1>
+<div class="homepageMiddle">
+  <p>Here you can see some of the things I have CreaTed</p>
+</div>
+
+
+<!-- <div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/paldoc1.jpg" alt="website" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m8datavis.html">
+        <div class="text">M8: Data Visualisation </div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/finalprofdev.png" alt="finalprofdev" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m8profdev.html">
+        <div class="text">M8: Final Professional Development Challenge</div>
+          </a>
+      </div>
+    </div>
+  </div> -->
+  <div class="column">
+    <div class="container">
+      <img src="img/jackpotjinx1.jpg" alt="coralbleaching" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m8jackpotjinx.html">
+        <div class="text">M8: Jackpot Jinx</div>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/paldoc1.jpg" alt="website" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m8datavis.html">
+        <div class="text">M8: Data Visualisation </div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/finalprofdev.png" alt="finalprofdev" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m8profdev.html">
+        <div class="text">M8: Final Professional Development Challenge</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/coralbleaching.png" alt="coralbleaching" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m8animatedstorytelling.html">
+        <div class="text">M8: Animated Storytelling</div>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/websiteredesignfront.png" alt="website" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m7websiteredesign.html">
+        <div class="text">M7: Website Redesign </div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/simplesynth.jpeg" alt="aether" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m6simplesynth.html">
+        <div class="text">M6: Simple Synth</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/yeehaw.png" alt="art m4" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m6ai.html">
+        <div class="text">M6: AI Programming</div>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/oly4.png" alt="Oly" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m5oly.html">
+        <div class="text">M5: Oly</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/johnlemon.png" alt="Game Engine Technology" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m5gametechnology.html">
+        <div class="text">M5: Game Engine Technology</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/olyanimation.gif" alt="3D moddeling and animation" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m5moddelinganimation.html">
+        <div class="text">M5: 3D Moddeling and Animation</div>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/PS5Cover2.png" alt="ps5" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m5ps5cover.html">
+        <div class="text">M5: PS5 Cover</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/foto1.jpg" alt="aether" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m4aetheroxygen.html">
+        <div class="text">M4: AETHER Oxygen</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/Ultraboost2.png" alt="art m4" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m4algoritm.html">
+        <div class="text">M4: Algorithms</div>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/game.png" alt="gamejam" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m4gamejam.html">
+        <div class="text">M4: Game-Jam</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/pillar.jpg" alt="did2022" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m3did.html">
+        <div class="text">M3: Dutch Innovation Days</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/Submarine2.png" alt="blender m3" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m3blender.html">
+        <div class="text">M3: Interactive Visualisation</div>
+          </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/illustrator8.png" alt="illustrator m3" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m3illustrator.html">
+        <div class="text">M3: Illustrator Course</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/monster1.png" alt="blender" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m3blenderguide.html">
+        <div class="text">M3: Blender Beginners Guide</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/cultivaid.png" alt="Cultivaid" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m2cultivaid.html">
+        <div class="text">M2: Smart Environments Cultivaid</div>
+          </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="img/planegamer.png" alt="programming" class="image"> <!--3dmoddeling.PNG -->
+      <div class="overlays">
+        <a href="portfolioprojects/m2programming.html">
+        <div class="text">M2: Programming</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/stekker.png" alt="Sketching" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m2sketching.html">
+        <div class="text">M2: Sketching</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="container">
+      <img src="img/creativecoding.png" alt="creative coding" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m2creativecoding.html">
+        <div class="text">M2: Creative Coding</div>
+          </a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="column">
+    <div class="container">
+      <img src="img/microsoft365collab.png" alt="microsoft 365 collaborating" class="image">
+      <div class="overlays">
+        <a href="portfolioprojects/m2microsoftcollab.html">
+        <div class="text">M2: Microsoft 365 Collaborating</div>
+          </a>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+    <div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="img/notonmywatch.png" alt="Video Project" class="image">
+          <div class="overlays">
+            <a href="ximpel/notonmywatch.html">
+            <div class="text">M1: Video Project Not on my Watch</div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="img/bird.png" alt="programming" class="image">
+          <div class="overlays">
+            <a href="portfolioprojects/m1programming.html">
+            <div class="text">M1: Programming</div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="img/3dmoddeling.PNG" alt="3d moddeling" class="image"> <!--3dmoddeling.PNG -->
+          <div class="overlays">
+            <a href="portfolioprojects/m13dmoddeling.html">
+            <div class="text">M1: "3d Moddeling" Workshop</div>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="img/M1Java.PNG" alt="Module 1 Java Workshop" class="image">
+          <div class="overlays">
+            <a href="portfolioprojects/m1java.html">
+            <div class="text">M1: Java Workshop</div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="img/3dface1.jpg" alt="Module 1 VisCom" class="image">
+          <div class="overlays">
+            <a href="portfolioprojects/m1viscom.html">
+            <div class="text">M1: Visual Communication</div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="img/totbmain.PNG" alt="Tales of the bay" class="image">
+          <div class="overlays">
+            <a href="portfolioprojects/totb.html">
+            <div class="text">Tales of the Bay</div>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<br><br><br><br><br>
+  <a onclick="topFunction()" id="backToTop" title="Go to top" class="footera"><img src="img/uparrow.png" alt="Top" class="footericon"></a>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("backToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+    </script>
+
+
+
+  </body>
+</html>
